@@ -1,0 +1,32 @@
+{
+    "name": "IronGuard - Foundry AI Assistant",
+    "short_name": "IronGuard",
+    "description": "AI-powered conversational agent for isolated foundry workers with real-time temperature monitoring and energy optimization",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#ff4500",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/static/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/static/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["productivity", "utilities", "business"],
+    "screenshots": [
+        {
+            "src": "/static/screenshot1.png",
+            "sizes": "1280x720",
+            "type": "image/png"
+        }
+    ]
+}

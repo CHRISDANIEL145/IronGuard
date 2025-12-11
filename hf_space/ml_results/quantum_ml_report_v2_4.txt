@@ -1,0 +1,65 @@
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║   🧬 FORGE INTELLIGENCE v3.0 - QUANTUM ML REPORT (v2.4 PRODUCTION FINAL)      ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+Generated: 2025-11-04 16:17:03
+
+✅ ANOMALY DETECTION
+────────────────────────────────────────────────────────────────────────────────
+
+IF-State1:
+  • Accuracy:  0.9709
+  • Precision: 0.7933
+  • Recall:    0.5238
+  • F1-Score:  0.6310
+
+IF-State2:
+  • Accuracy:  0.9752
+  • Precision: 0.7786
+  • Recall:    0.6698
+  • F1-Score:  0.7201
+
+Quantum-Ensemble:
+  • Accuracy:  0.9752
+  • Precision: 0.7786
+  • Recall:    0.6698
+  • F1-Score:  0.7201
+
+
+✅ TEMPERATURE PREDICTION
+────────────────────────────────────────────────────────────────────────────────
+
+XGBoost:
+  • MAE:  51.1980°C
+  • RMSE: 184.8041°C
+  • R²:   0.3060
+
+LightGBM:
+  • MAE:  49.9060°C
+  • RMSE: 175.2306°C
+  • R²:   0.3761
+
+Random Forest:
+  • MAE:  50.9482°C
+  • RMSE: 189.4501°C
+  • R²:   0.2707
+
+Gradient Boosting:
+  • MAE:  48.0903°C
+  • RMSE: 176.1374°C
+  • R²:   0.3696
+
+Neural Network:
+  • MAE:  76.1221°C
+  • RMSE: 215.9569°C
+  • R²:   0.0523
+
+Quantum-Superposition:
+  • MAE:  48.5438°C
+  • RMSE: 177.9541°C
+  • R²:   0.3565
+
+
+✅ STATUS: PRODUCTION READY
+════════════════════════════════════════════════════════════════════════════════

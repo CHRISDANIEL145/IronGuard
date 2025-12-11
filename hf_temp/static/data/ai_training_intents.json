@@ -1,0 +1,381 @@
+[
+  {
+    "query": "what is the current temperature",
+    "intent": "temperature",
+    "entities": [
+      "current"
+    ]
+  },
+  {
+    "query": "how hot is the furnace",
+    "intent": "temperature",
+    "entities": [
+      "current"
+    ]
+  },
+  {
+    "query": "temperature status",
+    "intent": "temperature",
+    "entities": [
+      "status"
+    ]
+  },
+  {
+    "query": "is the temp too high",
+    "intent": "temperature",
+    "entities": [
+      "high",
+      "check"
+    ]
+  },
+  {
+    "query": "temp reading",
+    "intent": "temperature",
+    "entities": [
+      "current"
+    ]
+  },
+  {
+    "query": "what will temperature be in 30 minutes",
+    "intent": "prediction",
+    "entities": [
+      "30min"
+    ]
+  },
+  {
+    "query": "next 30 min forecast",
+    "intent": "prediction",
+    "entities": [
+      "30min"
+    ]
+  },
+  {
+    "query": "predict temperature",
+    "intent": "prediction",
+    "entities": [
+      "general"
+    ]
+  },
+  {
+    "query": "future temperature",
+    "intent": "prediction",
+    "entities": [
+      "general"
+    ]
+  },
+  {
+    "query": "next hour prediction",
+    "intent": "prediction",
+    "entities": [
+      "1hour"
+    ]
+  },
+  {
+    "query": "5 minute forecast",
+    "intent": "prediction",
+    "entities": [
+      "5min"
+    ]
+  },
+  {
+    "query": "what will happen next",
+    "intent": "prediction",
+    "entities": [
+      "general"
+    ]
+  },
+  {
+    "query": "can I pour now",
+    "intent": "pouring",
+    "entities": [
+      "readiness"
+    ]
+  },
+  {
+    "query": "pouring readiness",
+    "intent": "pouring",
+    "entities": [
+      "readiness"
+    ]
+  },
+  {
+    "query": "is it safe to pour",
+    "intent": "pouring",
+    "entities": [
+      "safety",
+      "readiness"
+    ]
+  },
+  {
+    "query": "ready to cast",
+    "intent": "pouring",
+    "entities": [
+      "readiness"
+    ]
+  },
+  {
+    "query": "pour status",
+    "intent": "pouring",
+    "entities": [
+      "status"
+    ]
+  },
+  {
+    "query": "when can I pour",
+    "intent": "pouring",
+    "entities": [
+      "timing"
+    ]
+  },
+  {
+    "query": "energy consumption",
+    "intent": "energy",
+    "entities": [
+      "current"
+    ]
+  },
+  {
+    "query": "power usage",
+    "intent": "energy",
+    "entities": [
+      "current"
+    ]
+  },
+  {
+    "query": "energy savings",
+    "intent": "energy",
+    "entities": [
+      "savings"
+    ]
+  },
+  {
+    "query": "how much energy are we using",
+    "intent": "energy",
+    "entities": [
+      "current"
+    ]
+  },
+  {
+    "query": "electricity cost",
+    "intent": "energy",
+    "entities": [
+      "cost"
+    ]
+  },
+  {
+    "query": "optimize energy",
+    "intent": "energy",
+    "entities": [
+      "optimization"
+    ]
+  },
+  {
+    "query": "any anomalies",
+    "intent": "anomaly",
+    "entities": [
+      "check"
+    ]
+  },
+  {
+    "query": "risk level",
+    "intent": "anomaly",
+    "entities": [
+      "risk"
+    ]
+  },
+  {
+    "query": "is there a problem",
+    "intent": "anomaly",
+    "entities": [
+      "check"
+    ]
+  },
+  {
+    "query": "system alerts",
+    "intent": "anomaly",
+    "entities": [
+      "alerts"
+    ]
+  },
+  {
+    "query": "warning status",
+    "intent": "anomaly",
+    "entities": [
+      "status"
+    ]
+  },
+  {
+    "query": "danger check",
+    "intent": "anomaly",
+    "entities": [
+      "safety"
+    ]
+  },
+  {
+    "query": "system status",
+    "intent": "status",
+    "entities": [
+      "general"
+    ]
+  },
+  {
+    "query": "give me a report",
+    "intent": "status",
+    "entities": [
+      "report"
+    ]
+  },
+  {
+    "query": "overview",
+    "intent": "status",
+    "entities": [
+      "general"
+    ]
+  },
+  {
+    "query": "dashboard summary",
+    "intent": "status",
+    "entities": [
+      "summary"
+    ]
+  },
+  {
+    "query": "how is everything",
+    "intent": "status",
+    "entities": [
+      "general"
+    ]
+  },
+  {
+    "query": "safety status",
+    "intent": "safety",
+    "entities": [
+      "status"
+    ]
+  },
+  {
+    "query": "is it safe",
+    "intent": "safety",
+    "entities": [
+      "check"
+    ]
+  },
+  {
+    "query": "hazard check",
+    "intent": "safety",
+    "entities": [
+      "hazard"
+    ]
+  },
+  {
+    "query": "emergency status",
+    "intent": "safety",
+    "entities": [
+      "emergency"
+    ]
+  },
+  {
+    "query": "maintenance schedule",
+    "intent": "maintenance",
+    "entities": [
+      "schedule"
+    ]
+  },
+  {
+    "query": "when is next maintenance",
+    "intent": "maintenance",
+    "entities": [
+      "next"
+    ]
+  },
+  {
+    "query": "equipment health",
+    "intent": "maintenance",
+    "entities": [
+      "health"
+    ]
+  },
+  {
+    "query": "sensor status",
+    "intent": "maintenance",
+    "entities": [
+      "sensors"
+    ]
+  },
+  {
+    "query": "how to optimize",
+    "intent": "optimization",
+    "entities": [
+      "general"
+    ]
+  },
+  {
+    "query": "improve efficiency",
+    "intent": "optimization",
+    "entities": [
+      "efficiency"
+    ]
+  },
+  {
+    "query": "reduce costs",
+    "intent": "optimization",
+    "entities": [
+      "cost"
+    ]
+  },
+  {
+    "query": "best settings",
+    "intent": "optimization",
+    "entities": [
+      "settings"
+    ]
+  },
+  {
+    "query": "hello",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "query": "hi",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "query": "hey",
+    "intent": "greeting",
+    "entities": []
+  },
+  {
+    "query": "good morning",
+    "intent": "greeting",
+    "entities": [
+      "morning"
+    ]
+  },
+  {
+    "query": "help",
+    "intent": "help",
+    "entities": []
+  },
+  {
+    "query": "what can you do",
+    "intent": "help",
+    "entities": [
+      "capabilities"
+    ]
+  },
+  {
+    "query": "commands",
+    "intent": "help",
+    "entities": [
+      "commands"
+    ]
+  },
+  {
+    "query": "features",
+    "intent": "help",
+    "entities": [
+      "features"
+    ]
+  }
+]
